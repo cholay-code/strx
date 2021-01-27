@@ -8,7 +8,7 @@ class InputFrame(Frame):
 
     def __init__(self, config):
         """
-        The control panel
+        Housies current mode indicator and input
         """
         tk.Frame.__init__(
             self,
@@ -16,7 +16,7 @@ class InputFrame(Frame):
             padx=5,
             pady=5
         )
-        
+
         frame = tk.Frame(
             self,
             background='#625D5D',

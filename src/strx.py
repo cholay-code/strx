@@ -23,20 +23,20 @@ from gui import *
 # ----
 #    GUI
 #    X Help Section for modification keys
-#    - Tidy up frames to match window size on Windows & Mac
+#    X Tidy up frames to match window size on Windows & Mac
 #    - Disable/Enable Wrap / Colourization
 #    - PgUp / PgDown scrolling
 #    - Add highlight to "Find" terms
 #
 #    Functionality
-#    - Pretty printing modes (use numeric keys)
-#      - 1 SQL* (prioritize PSQL)
-#      - 2 JSON
-#      - 3 JSON to Object(s) (elaborate)
-#      - 4 HTML
-#    - Two layer delimiters (delim & line endings?)
+#    - Pretty printing modes (needs design -> config menu?)
+#      - SQL* (prioritize PSQL)
+#      - JSON
+#      - JSON to Object(s) (elaborate)
+#      - HTML
+#    - Two layer delimiters (delim & line endings, may require sm refactor)
 #    X Fix buffer_to_buffer token duplication.
-#    - recognise \r as an escape sequence
+#    X recognise \r as an escape sequence
 #    - (E)xtract awk-style
 #    - (G)rep
 #    - Clear start/end of line from matching Regex.
@@ -54,7 +54,6 @@ from gui import *
 #    - Export config to YAML file.
 #    - Standalone application creation methods.
 #       X Icon
-#    - Clean out repo and get onto Github
 #
 ######################################################
 

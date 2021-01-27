@@ -12,7 +12,7 @@ FIELD_SIZES = {
 
 class StatsFrame(Frame):
     settings = {
-        'newline_delim_mode': False,
+        'newline_delim_mode': False, # not used
         'apply_formatting': True
     }
     def __init__(self, config, sm):
